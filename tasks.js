@@ -1,5 +1,5 @@
 const fs = require('fs');
-const PATH = './data/task.json';
+const PATH = './data/tasks.json';
 
 function readTask(){
     return JSON.parse(fs.readFileSync(PATH, 'utf8'));
